@@ -2,8 +2,15 @@
 
 int main()
 {
-    int n;
+    long int n;
 	printf("\n%d",n);
+	if(n<0)
+	{
+		printf("\ninvalid");
+	}
+	else
+	{
+		
 	if(n%2==0)
 	{
 		printf("\nEVEN");
@@ -14,4 +21,5 @@ int main()
 		printf("\nODD");
 	}
 	return(0);
+}
 }
