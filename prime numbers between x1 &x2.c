@@ -2,16 +2,8 @@
 int main()
 {
 	int n1,n2,i,j,c=0;
-	printf("\n enter the  starting number and ending number");
 	scanf("%d %d",&n1,&n2);
-	if(n1==n2)
-	{
-		printf("invalid");
-	}
-	else
-	{
-	
-	for(i=n1;i<=n2;i++)
+	for(i=n1+1;i<n2;i++)
 	{
 	for(j=1;j<=i;j++)
 	{
@@ -20,12 +12,9 @@ int main()
 	}
 	if(c==2)
 	{
-
-			printf(" \n %d ",i);
+        printf("%d ",i);
 	}
 	c=0;
 	}
-}
-	
 	return(0);
 }
