@@ -5,8 +5,6 @@ int main()
     int n,revnumber=0,temp,res;
     scanf("%d",&n);
     res=n;
-    if(n<=1000)
-    {
     while(n!=0)
     {
         temp=n%10;
@@ -17,10 +15,10 @@ int main()
     {
         printf("yes");
     }
-    }
     else
     {
         printf("no");
     }
+    
     return 0;
 }
