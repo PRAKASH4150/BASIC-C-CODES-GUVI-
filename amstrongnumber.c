@@ -2,7 +2,6 @@
 int main()
 {
 	int n,temp,rem,res=0;
-	printf("\nEnter a number");
 	scanf("%d",&n);
 	rem=n;
 		while(n!=0)
@@ -17,8 +16,8 @@ int main()
 	}
 	//printf("%d",res);
 	if(res==rem)
-	printf("\nAMSTRONG NUMBER");
+	printf("\nyes");
 	else
-	printf("\nNOT AN AMSTRONG NUMBER");
+	printf("\nno");
 	
 }
