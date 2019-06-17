@@ -17,7 +17,7 @@ int main()
      }
      else if(l1==l2)
      {
-        puts(str1); 
+        puts(str2); 
      }
     
     return 0;
