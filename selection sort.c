@@ -3,9 +3,9 @@
 int main()
 {
     int arr[50],i,minpos,temp,n;
-    printf("\nENTER THE SIZE OF THE ARRAY:");
+    //printf("\nENTER THE SIZE OF THE ARRAY:");
     scanf("%d",&n);
-    printf("\nENTER THE ELEMENTS IN THE ARRAY:");
+    //printf("\nENTER THE ELEMENTS IN THE ARRAY:");
     for(i=0;i<n;i++)
     {
       scanf("%d",&arr[i]);
