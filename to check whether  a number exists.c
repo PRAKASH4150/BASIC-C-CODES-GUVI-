@@ -13,6 +13,7 @@ int main()
      if(arr[i]==k)
      {
         flag=1;
+        break;
      }
      else
      {
