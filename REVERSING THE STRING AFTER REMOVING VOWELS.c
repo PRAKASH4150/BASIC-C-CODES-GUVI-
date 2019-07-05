@@ -3,8 +3,9 @@
 int main()
 {
   char str[10];
-  int len,i;
-  gets(str);
+  int len,i,n;
+  scanf("%d",&n);
+  scanf("%s",&str);
   len=strlen(str);
   for(i=0;i<len;i++)
   {
